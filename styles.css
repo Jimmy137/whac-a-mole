@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+}
+.grid {
+    margin: 0 auto;
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+.square{
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+}
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
